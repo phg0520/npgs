@@ -1,0 +1,18 @@
+{
+  "name": "np-game",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/phg0520/npgs.git",
+  "author": "phg0520 <a01099577792@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3",
+    "prettier": "^3.3.2"
+  }
+}
