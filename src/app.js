@@ -9,6 +9,7 @@ const PORT = 3000; // 서버여는 포트
 
 app.use(express.json());
 app.use(express.urlencoded({extended:false})); // true로 하면 url 인코딩
+app.use(express.static('public'));
 initsocket(server); // 시작하면서 이거 실행하면서 서버 실행
 
 app.get('/', (req , res ) => {
