@@ -1,10 +1,10 @@
-import { moveStageHandler } from "./stage.handler";
-import { gameEnd, gameStart } from "./game.handler";
+import { moveStageHandler } from './stage.handler.js';
+import { gameEnd, gameStart } from './game.handler.js';
 
-const HandlerMappings = {
-    2: gameStart,
-    3: gameEnd,
-    11: moveStageHandler,
+const handlerMappings = {
+  2: gameStart,
+  3: gameEnd,
+  11: moveStageHandler,
 };
 
-export default HandlerMappings;
+export default handlerMappings;
